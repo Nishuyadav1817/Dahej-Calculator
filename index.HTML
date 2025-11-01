@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dowry calculator</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div id="box">
+       
+      <h1>Dowry calculator</h1>
+      <p>Avoid dowry, marry for harmony. Avoid taking dowry, lead a glorious life.</p>
+      <label for="age">Select Your Age:</label> <br/>
+      <select id="age" name="age">
+          <option value="">--Select Age--</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+      </select>
+ <br/>
+ <br/>
+      <label for="caste">Select Your Caste:</label>
+      <select id="caste" name="caste">
+          <option value="">--Select Caste--</option>
+          <option value="General">General</option>
+          <option value="OBC">OBC</option>
+          <option value="SC">SC</option>
+          <option value="ST">ST</option>
+          <option value="EWS">EWS</option>
+      </select>
+      <br/>
+      <br/>
+      <label for="profession">Select Your Profession:</label>
+<select id="profession" name="profession">
+    <option value="">--Select Profession--</option>
+    <option value="student">Student</option>
+    <option value="engineer">Engineer</option>
+    <option value="doctor">Doctor</option>
+    <option value="teacher">Teacher</option>
+    <option value="business">Business</option>
+    <option value="government_job">Government Job</option>
+    <option value="private_job">Private Job</option>
+    <option value="farmer">Farmer</option>
+    <option value="berojaagar">Berojgar (Unemployed)</option>
+</select>
+<br/>
+ <br/>
+ <label for="salary">Select Your Monthly Salary:</label>
+ <select id="salary" name="salary">
+     <option value="">--Select Salary--</option>
+     <option value="0">₹0 (Unemployed)</option>
+     <option value="5000">₹5,000 - ₹10,000</option>
+     <option value="10000">₹10,000 - ₹20,000</option>
+     <option value="20000">₹20,000 - ₹30,000</option>
+     <option value="30000">₹30,000 - ₹50,000</option>
+     <option value="50000">₹50,000 - ₹1,00,000</option>
+     <option value="100000">₹1,00,000+</option>
+ </select>
+ <br/>
+ <br/>
+ <label for="property">Select Parent's Property:</label>
+ <select id="property" name="property">
+     <option value="">--Select Property--</option>
+     <option value="no_property">No Property</option>
+     <option value="land">Agricultural Land</option>
+     <option value="house">Own House</option>
+     <option value="flat">Flat/Apartment</option>
+     <option value="shop">Shop/Business Property</option>
+     <option value="multiple_properties">Multiple Properties</option>
+ </select>
+ <br/>
+ <br/>
+ <button id="btn1">Calculate</button>
+ <br/>
+ <br/>
+
+   <label>Aapki aukat hai: <div id="aa"></div></label>
+   <br/>
+
+  <button id="btn">Reset</button>
+   
+</div>
+    <script src="fir.js"></script>
+</body>
+</html>
